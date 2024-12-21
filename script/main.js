@@ -7,7 +7,6 @@ window.addEventListener('load', () => {
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonText: 'Submit',
-        showCancelButton: true,
         allowOutsideClick: false, // Disable clicking outside to close
         allowEscapeKey: false,
     }).then((result) => {
