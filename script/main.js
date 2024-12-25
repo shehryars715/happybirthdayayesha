@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
     }).then((result) => {
         if (result.isConfirmed) {
             const enteredPassword = result.value;
-            const correctPassword = 'iloveayesha'; // Replace with your desired password
+            const correctPassword = 'iloveshehryar'; // Replace with your desired password
 
             if (enteredPassword === correctPassword) {
                 Swal.fire({
